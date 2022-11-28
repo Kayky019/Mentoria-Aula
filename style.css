@@ -1,0 +1,81 @@
+/* Configuração padrão da pagina
+------------------------------*/
+body, html {
+    margin: 0;
+    font: 16px "Lato", sans-serif;
+    color: #777;
+    height: 100%;
+
+}
+
+.conteudo {
+    color: #777;
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Efeito Parallax
+----------------------*/
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5 {
+    height: 100%;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+}
+.caixa1 {
+    background-image: url(imagens/430915.jpg);
+}
+
+.caixa2 {
+    background-image: url(imagens/thumb-1920-430892.png);
+}
+
+.caixa3 {
+    background-image: url(imagens/695932.jpg);
+}
+
+.caixa4 {
+    background-image: url(imagens/img.jpg);
+}
+
+.caixa5 {
+    background-image: url(imagens/701031.png);
+}
+
+.conteudo-titulo {
+    position: absolute;
+    left: 0%;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-titulo span.titulo {
+    color: #fff;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.conteudo-titulo span.titulo2 {
+    color: #fff;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
